@@ -53,6 +53,7 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
     initial setup, adding a mod to MMR would be a "set it and forget it" thing,
     meaning that adding a mod to MMR becomes less of a "why" and more of a "why
     not."
+  * We will also want plugins for existing CI systems for people who alreafy hsve that set up.
 * Simple server setup
   * Allow a player to enter a server IP and automatically get an instance with
     that server's modpack and the server's IP preloaded into the server list.
@@ -88,6 +89,8 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
     first two options would be available.
   * Modpack developers should be able to make a modpack private (whitelist of
     player names), or public.
+* Launcher Agnostic
+  * Besides a built-in launcher, we should have first clas support for MultiMC and the vanilla launcher.
     
 Architecture (Technical Details)
 ================================
