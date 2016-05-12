@@ -2,22 +2,21 @@ M<sup>3</sup>: Minecraft Mod Machine
 ====================================
 
 This is a project to build a repository/package manager for Minecraft mods,
-allowing players to easily modders to easily publish mods, players to easily
-download mods, and modpack creators to easily, *ahem*, create modpacks. This
-project is currently in its earliest stages. Once we get a rough idea of
-exactly what we want in such a tool and what parts would be necessary, we will
-get started on coding.
+allowing modders to easily publish mods, players to easily download mods, and
+modpack creators to easily, *ahem*, create modpacks. This project is currently
+in its earliest stages. Once we get a rough idea of exactly what we want in
+such a tool and what parts would be necessary, we will get started on coding.
 
 
 Wishlist
 --------
 
 These are the features we would like to have. For now, anything goes. Once the
-list has pretty much settled down, we will seperate it into phases so we can
+list has pretty much settled down, we will separate it into phases so we can
 start implementation. Have an idea? Send a PR and we'll add it to this list.
 
 * Easy mod installation
-  * This should be as simple as searching on a mod's name and clicking install.
+  * This should be as simple as searching for a mod's name and clicking install.
   * Dependencies should be automatically installed as well.
 * Easy modpack assembly
   * Users should be able to easily distribute a list of mods along with any
@@ -41,7 +40,8 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
   * During gameplay, the client should use the smallest possible amound of
     system resources while still being useful to allow more resources to be
     dedicated to the game. This probably means not keeping all game logs in
-    memory and instead loading old logs automatically as the user scrolls up.
+    memory and instead loading old logs automatically as the user scrolls up,
+    or just writing them to a file.
 * CI service for modders
   * In the "winning modders over" department, we'll want to do something BETTER
     than the current leader, Curse, in order to succeed. A CI service would be
@@ -70,10 +70,10 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
     See ATLauncher.
 * External Mods
   * Modpack developers should be able to include in their packs Mods that have a
-       license that permits modpack inclusion, but whose authors have not
-       uploaded them to our repository. These should proably be handled the same
-       way Curse does: store them on our side as JARs, within the modpack along
-       with configs.
+    license that permits modpack inclusion, but whose authors have not
+    uploaded them to our repository. These should proably be handled the same
+    way Curse does: store them on our side as JARs, within the modpack along
+    with configs.
 * API
   * Anyone should be able to build a client or other software that uses our data.
 * Permissions
@@ -90,7 +90,7 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
 Architecture (Technical Details)
 ================================
 
-These are the big components I forsee needing.
+These are the big components we forsee needing.
 
 Backend
 -------
