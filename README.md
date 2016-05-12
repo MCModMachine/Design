@@ -87,8 +87,8 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
   * Modpack developers should be able to make a modpack private (whitelist of
     player names), or public.
     
-Architecture
-============
+Architecture (Technical Details)
+================================
 
 These are the big components I forsee needing.
 
@@ -99,6 +99,7 @@ This is the system that hosts mod files along with mod metadata and modpacks.
 The CI system will also be in this component.
 
 **Exposed Interface:** JSON API
+
 **Requirements:** Light on resources (disk space, bandwidth, CPU) so that it is
 affordable.
 
@@ -109,7 +110,9 @@ This handles storing mods locally, communicating with the backend, and
 interfacing with Minecraft.
 
 **Builds on:** Backend
+
 **Exposed Interface:** Library
+
 **Requirements:** Light on resourses (CPU, Memory) so that it can run alongside
 Minecraft without slowing it down
 
@@ -120,7 +123,9 @@ This is what the user sees. It needs to allow building modpacks, launching
 instances, etc.
 
 **Builds on:** Client Core
+
 **Exposed Interface:** CLI first, seperate GUI implementation later
+
 **Requirements:** Easy to use, light on resources (see client core)
 
 Web Interface
@@ -131,5 +136,7 @@ mods, and some of the things the client UI allows (everything but managing
 instances).
 
 **Builds on:** Backend
+
 **Exposed Interface:** Website
+
 **Requirements:** Simple to navigate
