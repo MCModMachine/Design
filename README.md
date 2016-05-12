@@ -1,5 +1,5 @@
-Minecraft Mod Repository
-========================
+M<sup>3</sup>: Minecraft Mod Machine
+====================================
 
 This is a project to build a repository/package manager for Minecraft mods,
 allowing players to easily modders to easily publish mods, players to easily
