@@ -97,7 +97,7 @@ Architecture (Technical Details)
 
 These are the big components we forsee needing.
 
-Backend
+Backend - [Implementation Thread](https://github.com/MCModMachine/Design/issues/1)
 -------
 
 This is the system that hosts mod files along with mod metadata and modpacks.
@@ -108,7 +108,7 @@ The CI system will also be in this component.
 **Requirements:** Light on resources (disk space, bandwidth, CPU) so that it is
 affordable.
 
-Client Core
+Client Core - [Implementation Thread](https://github.com/MCModMachine/Design/issues/2)
 -----------
 
 This handles storing mods locally, communicating with the backend, and
@@ -121,7 +121,7 @@ interfacing with Minecraft.
 **Requirements:** Light on resourses (CPU, Memory) so that it can run alongside
 Minecraft without slowing it down
 
-Client User Interface
+Client User Interface - [Implementation Thread (CLI, GUI thread will come later)](https://github.com/MCModMachine/Design/issues/3)
 ---------------------
 
 This is what the user sees. It needs to allow building modpacks, launching
