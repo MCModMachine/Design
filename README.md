@@ -91,6 +91,8 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
     player names), or public.
 * Launcher Agnostic
   * Besides a built-in launcher, we should have first clas support for MultiMC and the vanilla launcher.
+* Maven
+  * Provide a Maven for modders to easily get copies of mods to develop with.
     
 Architecture (Technical Details)
 ================================
