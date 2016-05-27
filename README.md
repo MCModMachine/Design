@@ -3,7 +3,7 @@ M<sup>3</sup>: Minecraft Mod Machine
 
 [Gitter](https://gitter.im/MCModMachine/main)
 
-![Comic describing our goal](https://ipfs.pics/QmWjZeFJ4SLH3qN6iFpcQQD5dR3A6d3HasMsJb4GZNHQf6)
+![Comic describing our goal](https://github.com/MCModMachine/Design/raw/master/xkcd.png)
 
 *Modified from [xkcd 919](https://xkcd.com/919), licensed under [CC BY-NC](http://creativecommons.org/licenses/by-nc/2.5/).*
 
