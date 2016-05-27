@@ -3,6 +3,10 @@ M<sup>3</sup>: Minecraft Mod Machine
 
 [Gitter](https://gitter.im/MCModMachine/main)
 
+![Comic describing our goal](https://ipfs.pics/QmWjZeFJ4SLH3qN6iFpcQQD5dR3A6d3HasMsJb4GZNHQf6)
+
+*Modified from [xkcd 919](https://xkcd.com/919), licensed under [CC BY-NC](http://creativecommons.org/licenses/by-nc/2.5/).*
+
 This is a project to build a repository/package manager for Minecraft mods,
 allowing modders to easily publish mods, players to easily download mods, and
 modpack creators to easily, *ahem*, create modpacks. This project is currently
