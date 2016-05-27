@@ -75,6 +75,7 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
   * In addition to the ability to make arbritary customizations to a a pack, it
     would be good to have preconfigured options to allow players to customize.
     See ATLauncher.
+  * In addition, we should allow including/excluding files (e.g. MineTweaker scripts) depending on installed mods.
 * External Mods
   * Modpack developers should be able to include in their packs Mods that have a
     license that permits modpack inclusion, but whose authors have not
