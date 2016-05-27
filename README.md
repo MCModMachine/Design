@@ -99,6 +99,8 @@ start implementation. Have an idea? Send a PR and we'll add it to this list.
   * Provide a Maven for modders to easily get copies of mods to develop with.
 * Sandboxed Client
   * Launch MC under an OS-level sandbox (e.g. LXC, OSX sandbox, etc) to reduce potential damage from rogue mods
+* Offline support
+  * Vanilla supports offline play. We should too.
     
 Architecture (Technical Details)
 ================================
