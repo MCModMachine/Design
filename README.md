@@ -1,7 +1,7 @@
 M<sup>3</sup>: Minecraft Mod Machine
 ====================================
 
-[Gitter](https://gitter.im/MCModMachine/main)
+[Discord](https://discord.gg/nYeuJfT)
 
 ![Comic describing our goal](https://github.com/MCModMachine/Design/raw/master/xkcd.png)
 
